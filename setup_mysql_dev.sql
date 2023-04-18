@@ -9,12 +9,10 @@ CREATE USER
 -- Granting user hbnb_dev privileges on database
 GRANT ALL PRIVILEGES
     ON `hbnb_dev_db`.*
-    TO'hbnb_dev'@'localhost'
-    IDENTIFIED BY 'hbnb_dev_pwd';
+    TO'hbnb_dev'@'localhost';
 
 -- Grant SELECT priviledge to user on db performance_schema.
 GRANT SELECT
     ON `performance_schema`.*
-    TO 'hbnb_dev'@'localhost'
-    IDENTIFIED BY 'hbnb_dev_pwd';
+    TO 'hbnb_dev'@'localhost';
 FLUSH PRIVILEGES;
