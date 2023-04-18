@@ -8,8 +8,8 @@ CREATE USER
     IF NO EXISTS 'hbnb_dev'@'localhost'
     IDENTIFIED BY 'hbnb_dev_pwd';
 GRANT ALL PRIVILEGES
-    ON `hbnb_dev_db`.* TO
-    'hbnb_dev'@'localhost'
+    ON `hbnb_dev_db`.*
+    TO'hbnb_dev'@'localhost'
     IDENTIFIED BY 'hbnb_dev_pwd';
 
 GRANT SELECT PRIVILEGES
