@@ -1,4 +1,4 @@
-#!/usr/bi/python3
+#!/usr/bin/python3
 """Implements a basic Flask Web App"""
 from flask import Flask, render_template
 from models import storage
