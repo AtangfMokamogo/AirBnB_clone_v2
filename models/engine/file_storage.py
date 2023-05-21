@@ -57,7 +57,7 @@ class FileStorage:
         else:
             self.__objects.pop(obj)
         return
-    
+
     def close(self):
         """Call the reload method."""
         self.reload()

@@ -40,7 +40,7 @@ class DBStorage:
     def all(self, cls=None):
         """Query all objects of a given class
             If cls is None, queries all types of objects.
-            
+
             Return:
             Dictionary of classes in the format <class name>.<obj id> = obj.
         """
