@@ -43,7 +43,7 @@ def number(n):
     """Return 'n is an integer
         ONLY if n is an integer
     """
-    return '{} is an integer'.format(n)
+    return '{} is a number'.format(n)
 
 
 if __name__ == '__main__':
